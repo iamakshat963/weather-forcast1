@@ -15,7 +15,7 @@ const Login = () => {
     setLoading(true);
 
     setTimeout(() => {
-      if (Username === "akshat963" && password === "akshat") {
+      if (Username === "akshat" && password === "akshat963") {
         alert("Login success");
         navigate("/app");
       } else {
