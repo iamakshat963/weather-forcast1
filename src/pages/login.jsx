@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import "./Login.css";
+import "./login.css";
 import spinner from "../assets/spinner.png";
 import leftImage from "../assets/weather_forcast.jpg"; 
 
