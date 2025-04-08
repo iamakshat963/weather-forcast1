@@ -1,0 +1,25 @@
+
+
+:root{ /*default theme*/
+  --bg-color: antiquewhite;
+  --text-color:black;
+}
+.dark-theme{/*dark theme*/
+  --bg-color:rgb(51, 51, 51);
+  --text-color:white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:var(--bg-color);
+  color:var(--text-color);
+  transition: background 0.5s ease ,color 0.5s ease; /*transition on changing theme*/
+}
+.app{
+  min-height: 100vh;
+  display: grid;
+}
