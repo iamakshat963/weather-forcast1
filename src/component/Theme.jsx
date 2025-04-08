@@ -12,7 +12,7 @@ const ThemeSet = () => {
   }, [theme]);
 
   const handleLogout = () => {
-    // Optional: clear login info here
+    window.alert("We are Logging out..!\nHave a nice day😊");
     navigate("/");
   };
 
